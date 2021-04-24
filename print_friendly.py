@@ -11,7 +11,7 @@ else:
         this_file_directory = os.path.dirname(this_file_path)
         absolute_path = os.path.join(this_file_directory, relative_path)
         return absolute_path
-    pyautogui.click(get_absolute_path('button.png'))
+    pyautogui.click(get_absolute_path('print_friendly.png'))
     
 
 
