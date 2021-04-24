@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import pyautogui
-if pyautogui.pixelMatchesColor(1750, 52,(109,162,34)):
-    pyautogui.click(1750, 52)
+x = 1750 
+y = 52
+if pyautogui.pixelMatchesColor(x, y,(109,162,34)):
+    pyautogui.click(x, y)
 else:
     import os
     def get_absolute_path(relative_path):
